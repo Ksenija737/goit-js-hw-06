@@ -23,6 +23,10 @@ button {
   cursor: pointer;
 }
 
+li {
+width: calc((100%-40px)/3);
+}
+
 img {
   display: block;
   width: 100%;
@@ -35,6 +39,6 @@ img {
   display: flex;
   gap: 20px;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   
 }
