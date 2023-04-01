@@ -4,5 +4,5 @@ form.addEventListener("submit", onSubmit);
 
 function onSubmit(event) {
     event.preventDefault();
-    console.dir(event.currentTarget.elements);
+    console.log(event.currentTarget.elements);
 }
